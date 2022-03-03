@@ -16,3 +16,7 @@ provider "aws" {
 resource "aws_s3_bucket" "aws-test" {
   bucket = "slew-aws-test-111"
 }
+
+resource "aws_s3_bucket" "aws-test-new" {
+  bucket = "slew-aws-test-1111"
+}
