@@ -20,3 +20,7 @@ resource "aws_s3_bucket" "aws-test" {
 resource "aws_s3_bucket" "aws-test-new" {
   bucket = "slew-aws-test-1111"
 }
+
+resource "aws_s3_bucket" "aws-test-new1" {
+  bucket = "slew-aws-test-11111"
+}
